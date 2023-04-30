@@ -1,0 +1,10 @@
+.LinKUserView:hover{
+    color: rgb(2, 45, 2) !important;
+    background-color: rgb(242, 252, 252);
+}
+
+.BtnUserViwe{
+    font-family:Verdana, Geneva, Tahoma, sans-serif !important;
+    color: rgb(33, 84, 3) !important;
+
+}

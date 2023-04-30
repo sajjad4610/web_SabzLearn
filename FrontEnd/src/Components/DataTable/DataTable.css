@@ -1,0 +1,28 @@
+/* .MuiPaper-elevation{
+    overflow-x: scroll !important;
+} */
+
+.tabelDataBox{
+  margin-bottom: 19rem;
+}
+
+
+.MuiTablePagination-selectLabel {
+  margin: 0 !important;
+  color: rgba(163, 203, 56, 1);
+  font-size: 1.2rem;
+}
+.MuiInputBase-colorPrimary {
+    margin-right: 0 !important;
+
+}
+
+.MuiTablePagination-displayedRows {
+  margin: 0 !important;
+  color: rgba(163, 203, 56, 1);
+  font-size: 1.2rem;
+}
+
+.inputGroupTexDataTabet{
+    background-color:rgba(163, 203, 56, 1)  !important ;
+}

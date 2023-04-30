@@ -1,0 +1,54 @@
+.Sidebar{
+  
+    height: 100vh;
+}
+.color{
+    background-color: rgba(19, 15, 64,1.0);
+    color: white;
+}
+.Headercolor{
+    background-color: #192a56 !important;
+}
+.HeaderBorder{
+    border-bottom: 3px solid #251b59 !important ;
+
+}
+.delay{
+    transition: width 1s;
+
+}
+.aniMiniMenue{
+    animation: aniMiniMenue 1s 1 ease forwards;
+}
+@keyframes aniMiniMenue{
+    from{transform: translateY(-15%)  ; opacity: 0;}
+    to{ transform: translateY(0%) ; opacity: 1;} 
+}
+.aniMaxMenue{
+    animation: aniMaxMenue 1s 1 ease forwards;
+}
+@keyframes aniMaxMenue{
+    from{transform: translateY(-15%)  ; opacity: 0;}
+    to{ transform: translateY(0%) ; opacity: 1;} 
+}
+
+.ItemHover:hover{
+    color: #6ab04c !important;
+    transition: 400ms;
+    text-shadow: 1px 1px 1px  #6ab04c;
+}
+.ItemHover:active{
+    padding-right: .5rem;
+    color: #badc58 !important;
+    transition: 400ms;
+    text-shadow: 1px 1px 1px  #badc58;
+    
+}
+
+.ant-collapse-header{
+    padding: 0px !important;
+}
+
+.buttonBars{
+    z-index: 10000;
+}

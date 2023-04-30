@@ -1,0 +1,14 @@
+.olStyle{
+    text-shadow: 1px 2px 5px rgb(161, 206, 245);
+    list-style-type: decimal !important;
+    color: rgba(10, 61, 98,1.0);
+    
+}
+.liStyle{
+    padding: 1rem !important;
+
+}
+.liStyle:hover{
+    background-color: rgba(184, 233, 148,.10) !important;
+    transition: 1s;
+}
